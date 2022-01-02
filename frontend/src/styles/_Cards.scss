@@ -1,0 +1,8 @@
+$card-border-width: 0;
+
+.card {
+    box-shadow: 2px 2px 15px 1px var(--bs-secondary-light);
+    &:hover {
+        box-shadow: 2px 2px 15px 5px var(--bs-secondary-light);
+    }
+}

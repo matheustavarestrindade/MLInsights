@@ -1,2 +1,10 @@
 @import "_Colors.scss";
+@import "./font/fonts";
+@import "_Cards.scss";
+// These are the defaults, but you can override any values
+$font-family-sans-serif: "GT Walsheim Pro", sans-serif !default;
+$font-family-serif: "GT Walsheim Pro", Times, serif !default;
+$font-family-monospace: "GT Walsheim Pro", monospace !default;
+$font-family-base: $font-family-sans-serif !default;
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
